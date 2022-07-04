@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "ccmagstripe:block/card_reader" }
+  }
+}
