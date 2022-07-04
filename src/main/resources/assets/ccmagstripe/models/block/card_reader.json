@@ -1,6 +1,24 @@
 {
-  "parent": "block/cube_all",
+  "parent": "block/block",
   "textures": {
-    "all": "ccmagstripe:block/card_reader"
-  }
+    "particle": "ccmagstripe:block/card_reader_top",
+    "top": "ccmagstripe:block/card_reader_top",
+    "bottom": "ccmagstripe:block/card_reader_bottom",
+    "front": "ccmagstripe:block/card_reader_front",
+    "side": "ccmagstripe:block/card_reader_side"
+  },
+  "elements": [
+    {
+      "from": [0, 0, 0],
+        "to": [16, 16, 16],
+      "faces": {
+        "down":  { "texture": "#bottom", "cullface": "down" },
+        "up":    { "texture": "#top",    "cullface": "up" },
+        "north": { "texture": "#front",  "cullface": "north" },
+        "south": { "texture": "#side",   "cullface": "south" },
+        "west":  { "texture": "#side",   "cullface": "west" },
+        "east":  { "texture": "#side",   "cullface": "east" }
+      }
+    }
+  ]
 }

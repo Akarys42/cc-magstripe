@@ -1,0 +1,8 @@
+{
+  "parent": "ccmagstripe:block/card_reader",
+  "textures": {
+    "side": "ccmagstripe:block/card_reader_side",
+    "top": "ccmagstripe:block/card_reader_top",
+    "bottom": "ccmagstripe:block/card_reader_bottom"
+  }
+}

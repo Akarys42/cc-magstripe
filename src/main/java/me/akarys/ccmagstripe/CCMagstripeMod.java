@@ -15,7 +15,7 @@ import org.slf4j.LoggerFactory;
 public class CCMagstripeMod implements ModInitializer {
 	public static final Logger LOGGER = LoggerFactory.getLogger("ccmagstripe");
 
-	public static final Block CARD_READER = new Block(FabricBlockSettings.of(Material.METAL).strength(2f).requiresTool());
+	public static final Block CARD_READER = new CardReaderBlock();
 
 	@Override
 	public void onInitialize() {

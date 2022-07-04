@@ -1,5 +1,8 @@
 {
   "variants": {
-    "": { "model": "ccmagstripe:block/card_reader" }
+    "facing=north": { "model": "ccmagstripe:block/card_reader_sides", "uvlock": true },
+    "facing=east": { "model": "ccmagstripe:block/card_reader_sides", "y": 90, "uvlock": true },
+    "facing=south": { "model": "ccmagstripe:block/card_reader_sides", "y": 180, "uvlock": true },
+    "facing=west": { "model": "ccmagstripe:block/card_reader_sides", "y": 270, "uvlock": true }
   }
 }
